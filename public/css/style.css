@@ -1,0 +1,204 @@
+
+main{
+    display:flex;
+    justify-content: center;
+}
+main .content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 180px;
+    align-items: center
+}
+.logo{
+    height: 217.97572326660156px;
+width: 171.43551635742188px;
+
+
+}
+.content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px;
+ 
+    Width: 345px;
+    Height: 72px;
+    border: 3px solid #FFEF61;
+    border-radius: 12px;
+    background-color: #FFFF;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+button img{
+    margin-left: 7px;
+}
+
+.flashCardContent img {
+    margin-top: 26px;
+    margin-left: 31px;
+}
+.flashCard{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.card{
+    height: 575.75px;
+    width: 392px;
+    left: 524px;
+    top: 224.125px;
+    border-radius: 12px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card .position{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    margin: 12px 12px;
+    
+}
+.card .descrition{
+    margin-left: 49px;
+    margin-right: 49px;
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.card img{
+    width: 35px;
+    height: 40px;
+    margin-left: 87%;
+    margin-bottom: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 19px 17px 0px 50px;
+   
+}
+.top .title{
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.top .position{
+    margin: 0px 0px;
+}
+.descritionTurn{
+    margin-left: 49px;
+    margin-right: 49px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.choice{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 18px 40px;
+
+    font-family: Roboto;
+
+
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    Width: 65px;
+    Height: 48px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 3px solid ;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.learn{
+    border: 3px solid #000000;
+}
+.forget{
+    border: 3px solid #F74848;
+}
+.effort{
+    border: 3px solid #62DB38;
+}
+.zap{
+    border: 3px solid #FFEF61;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 280px;
+}
+.end h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.end h2{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}

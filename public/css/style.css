@@ -163,16 +163,16 @@ button img{
     letter-spacing: 0em;
     text-align: center;
 }
-.learn{
+.black{
     border: 3px solid #000000;
 }
-.forget{
+.red{
     border: 3px solid #F74848;
 }
-.effort{
+.green{
     border: 3px solid #62DB38;
 }
-.zap{
+.yellow{
     border: 3px solid #FFEF61;
 }
 

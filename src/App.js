@@ -22,7 +22,17 @@ export default function App(){
 
         const [redClick, setRedClick] = react.useState(false)
         
-
+        function returning() {
+            setIndice(() =>indice + 1) 
+        }
+        
+        if (indice === 3){
+            if(redClick){
+                return <Lose />
+            }
+            return <Win />
+        }
+        
         const page = 
             {
                 beginPage: <Begin setFirst={manage} />,
@@ -32,17 +42,9 @@ export default function App(){
                 redCard: <Red setFirst={setChange} obj={game} indice={indice} returning={ returning } setRedClick={setRedClick}/>,
                 greenCard: <Green setFirst={setChange} obj={game} indice={indice} returning={ returning }/>,
                 yellowCard: <Yellow setFirst={setChange} obj={game} indice={indice} returning={ returning }/>  
+           
             }
           
-    function returning() {
-        setIndice(() =>indice + 1) 
-        if (indice === 3){
-            
-        }
-        
-    }
-    
-    
     function manage(string){
         setChange(string)
     }

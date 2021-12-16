@@ -13,7 +13,7 @@ export default function TurnFlashCard(props){
                 <span className="descritionTurn">{props.obj[props.indice].answer}</span>
                 <div className="choice">
                     <div onClick= {() => props.setThird('blackCard')} className="select black">Aprendi agora</div>
-                    <div onClick= {() =>{ props.setThird('redCard'); props.setRedClick()}} className="select red">Não lembrei</div>
+                    <div onClick= {() => props.setThird('redCard')} className="select red">Não lembrei</div>
                     <div onClick= {() => props.setThird('greenCard')} className="select green">Lembrei com esforço</div>
                     <div onClick= {() => props.setThird('yellowCard')} className="select yellow">Zap!</div>
                 </div>

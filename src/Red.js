@@ -2,6 +2,7 @@ export default function SelectedCard(props){
     function back(){
         props.returning()
         props.setFirst(() => 'flashCard')
+        props.setRedClick(true)
     }
     return (
     <div className="flashCardContent" >
